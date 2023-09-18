@@ -31,7 +31,6 @@ void draw () {
   }
 
   image(img, posX, posY);
-  
   fill(240, 128, 128);
   textFont(font);
   textAlign(CENTER, BOTTOM);
