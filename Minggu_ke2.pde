@@ -7,7 +7,7 @@ float offsetX, offsetY;
 void setup() {
   size(800, 1000);
   img = loadImage("astronaut.png");
-  font = loadFont("Constantia-BoldItalic-48.vlw");
+  font = loadFont("Sylfaen-48.vlw");
   posX = width / 2; 
   posY = height / 2; 
   velX = 0; 
@@ -31,6 +31,7 @@ void draw () {
   }
 
   image(img, posX, posY);
+  
   fill(240, 128, 128);
   textFont(font);
   textAlign(CENTER, BOTTOM);
